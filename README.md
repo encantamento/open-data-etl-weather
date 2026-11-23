@@ -68,15 +68,21 @@ The processed CSV contains:
 - Temperature range
 - Rainy day indicator
 
+
 ## Project Structure
 
-data/
-  processed/
-    output.csv
-
-src/
-  main.py
-
-README.md
-requirements.txt
-.gitignore
+```text
+open-data-etl-weather/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│       └── output.csv
+│
+├── src/
+│   └── main.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
