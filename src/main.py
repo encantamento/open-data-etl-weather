@@ -52,7 +52,7 @@ df = df.dropna()
 
 # Создаём новый столбец:
 # разница между максимальной и минимальной температурой
-df["temperature_range"] = df["temp_max"] - df["temp_min"]
+df["temperature_range"] = (df["temp_max"] - df["temp_min"]).round(2)
 
 # Создаём признак дождливого дня
 df["is_rainy_day"] = df["precipitation"] > 0

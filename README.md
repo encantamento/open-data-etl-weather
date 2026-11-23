@@ -68,6 +68,12 @@ The processed CSV contains:
 - Temperature range
 - Rainy day indicator
 
+date,temp_max,temp_min,precipitation,wind_speed_max,temperature_range,is_rainy_day
+2025-01-01,12.9,6.6,0.0,15.4,6.3,False
+2025-01-02,15.0,5.8,0.0,10.0,9.2,False
+2025-01-03,16.1,8.6,1.7,12.4,7.5,True
+2025-01-04,17.4,10.8,1.3,21.4,6.6,True
+
 
 ## Project Structure
 
